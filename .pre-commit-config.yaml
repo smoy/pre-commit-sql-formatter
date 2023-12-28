@@ -3,7 +3,13 @@ repos:
   rev: v4.5.0
   hooks:
   - id: check-yaml
-#- repo: https://github.com/smoy/pre-commit-sql-formatter.git
-#  rev: 71690ff
-#  hooks:
-#  - id: sql-formatter
+- repo: https://github.com/smoy/pre-commit-sql-formatter.git
+  rev: 1076a2b
+  hooks:
+  - id: sql-formatter
+    args:
+      [
+        "--language=mysql",
+        "--config=sql.config",
+        "--fix"
+      ]
