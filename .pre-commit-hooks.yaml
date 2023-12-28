@@ -3,4 +3,4 @@
     entry: sql-formatter
     files: '\.(sql)$'
     language: 'node'
-    description: "Runs `sql-formatter`
+    description: "Runs `sql-formatter`"
