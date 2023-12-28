@@ -1,0 +1,8 @@
+{
+  "name": "pre-commit-sql-formatter",
+  "version": "0.1.0",
+  "author": "Steven Moy <github@stevenmoy.com>",
+  "dependencies": {
+    "sql-formatter": "^15.0.0"
+  }
+}
